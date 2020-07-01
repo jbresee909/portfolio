@@ -1,0 +1,44 @@
+.Skills {
+  width: 87%;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px 20px;
+}
+
+.skill-list {
+  width: 75%;
+}
+
+.Skill {
+  margin-top: 20px;
+}
+
+.Skill > div {
+  color: white;
+  background-color: var(--color-purple-navy);
+  padding: 20px 5%;
+  border-radius: 40px;
+  transition: all 0.5s;
+  border: solid var(--color-purple-navy) 1px;
+}
+
+.Skill > div:hover {
+  color: var(--color-purple-navy);
+  background-color: white;
+}
+
+.Skill > h3 {
+  font-size: 20px;
+  margin-inline-start: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Skills {
+    padding: 40px 10px;
+  }
+  
+  .Skill > div {
+    padding: 15px 10%;
+  }
+}

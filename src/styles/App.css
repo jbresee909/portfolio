@@ -1,0 +1,75 @@
+:root {
+  /* colors */
+  --color-primary: #e2856e;
+  --color-secondary: #618985;
+  --color-light-green: #d8f1a0;
+  --color-purple-navy: #474973;
+  --color-background: #f3e8ee;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0% 10%;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+p {
+  color: #444;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+.buttonLink {
+  padding: 12px 20px;
+  background-color: var(--color-background);
+  color: var(--color-purple-navy);
+  text-decoration: none;
+  transition: all 0.25s;
+}
+
+.buttonLink:hover {
+  background-color: var(--color-purple-navy);
+  color: var(--color-background);
+}
+
+.App {
+  background-color: var(--color-background);
+  padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    padding: 2% 5%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 0% 0%;
+  }
+}

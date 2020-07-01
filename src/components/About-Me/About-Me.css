@@ -1,0 +1,105 @@
+.About-Me {
+  width: 90%;
+  text-align: center;
+  margin: 0px auto 50px auto;
+}
+
+.About-Me > img {
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 50px;
+}
+
+div.personal-info {
+  text-align: left;
+  padding: 50px 20px 20px 20px;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+
+div.personal-info h1,
+h2,
+h3,
+h4 {
+  margin: 5px 0px;
+}
+
+div.cta {
+  text-align: center;
+  background-image: url("../../images/computer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+.cta-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 100px 12px;
+}
+
+.bio {
+  padding: 50px 20px;
+  background-color: white;
+  text-align: start;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.bio > div {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+
+  padding: 20px;
+  border-radius: 0px 0px 20px 0px;
+}
+
+.bio h2 {
+  padding-inline-start: 20px;
+}
+
+.bio img {
+  width: 200px;
+  padding: 0px 20px;
+  align-self: center;
+}
+
+.bio p {
+  width: 80%;
+  padding-bottom: 30px;
+  padding-top: 12px;
+}
+
+@media only screen and (max-width: 900px) {
+  .bio div {
+    flex-direction: column;
+  }
+
+  .bio {
+    text-align: center;
+  }
+
+  .bio img {
+    margin: 40px auto;
+  }
+
+  .bio p {
+    margin: 0px auto;
+  }
+
+  .bio h2 {
+    padding-inline-start: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .About-Me > img {
+    width: 200px;
+  }
+
+  .bio img {
+    margin: 40px 0px;
+  }
+}
